@@ -1,3 +1,12 @@
+## How to use this application?
+```
+# build docker image and run container
+$ docker-compose up
+
+# stop container
+$ docker-compose down
+```
+
 ## Deploying in containers
 
 In this example we take our node application and put it into a container for deployment on EC2 Container Service.
