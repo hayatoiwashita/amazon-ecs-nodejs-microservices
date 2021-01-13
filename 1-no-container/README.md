@@ -11,3 +11,13 @@ In this example `cluster` is used to spawn one worker process per core, and the 
 We can use an Application Load Balancer to round robin requests across multiple servers, providing horizontal scaling.
 
 ![Reference diagram of the basic node application deployment](../images/monolithic-no-container.png)
+
+
+## How to use this application?
+```
+# install modules
+$ yarn install
+
+# start
+$ yarn start
+```
